@@ -10,7 +10,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,500&display=swap" rel="stylesheet">
-  <title>Hello, world!</title>
+  <title>Secret Dairy</title>
 
   <style>
 
@@ -29,13 +29,21 @@
      }
 
      .container{
-        margin-top:14%;
+        
         text-align: center;
         width: 30%;
         color:black;
         font-family:'system-ui';
      }
 
+     #homePageContainer{
+      margin-top:14%;
+     }
+
+     #loggedInPageContainer{
+
+       margin-top: 70px;
+     }
      #logInForm{
         
         margin-top: 5%;
@@ -65,6 +73,12 @@
 
        cursor:pointer;
      }
+
+     #diary{
+       /* border: 2px solid red; */
+       width: 100%;
+       height: 100vh;
+     }
      
      @media (max-width:550px) {
 
@@ -86,9 +100,13 @@
       .container{
 
         width: 75%;
-        margin-top: 40%;
+        /* margin-top: 40%; */
         color:whitesmoke;
       }
+
+      #homePageContainer{
+      margin-top:40%;
+     }
 
       #signUpForm{
 
